@@ -1,0 +1,100 @@
+/* Sets background color in all pages */
+* {
+    background-color: #F7F7F7;
+}
+
+/* Specifies font-size */
+.lead {
+    font-size: 20px;
+}
+
+/* configures the menu colors and paddings */
+.menu {
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 25px;
+    background-color: #8E3636;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* adjusts padding for topmenu */
+.topmenu {
+    padding: 7px;
+}
+
+/* adjust link format */
+div a {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+/* adjust format of content area */
+.content {
+    border-radius: 25px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #B4CCFC;
+}
+
+/* changes background color */
+ol,ul,li,h3, p {
+    background-color: #B4CCFC;
+}
+
+/* smooths corners of images */
+img {
+    border-radius: 15px;
+}
+
+/* adjust format of link */
+p a {
+    color: white;
+    font-weight: 200;
+}
+
+/* adjusts format of link */
+ol a {
+    color: black;
+}
+
+/* formats link when mouse hovers */
+a:hover {
+    color:white;
+}
+
+/* formats menu option that is currently active */
+#active {
+    background-color: #7A4D4D;
+}
+
+/* adjusts pic format inside content */
+.contentpics {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* adds padding between sections */
+.padding {
+    padding-top: 15px;
+}
+
+/* adds padding on footer */
+.footer {
+    padding-top: 40px;
+}
+
+li {
+    padding-top: 10px;
+}
+
+p {
+    text-transform: none;
+    font-weight: 300;
+}
